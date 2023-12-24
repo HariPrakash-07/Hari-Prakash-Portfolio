@@ -4,7 +4,7 @@ body{
 
 .banner{
     font-family: 'Poppins', sans-serif;
-    background:url(../bs-portfolio/portfolio-img/coffee_laptop.jpg),no-repeat ;
+    background:url(./portfolio-img/coffee_laptop.jpg),no-repeat ;
     padding: 250px 0;
     background-position:initial ;
     background-size: cover;
