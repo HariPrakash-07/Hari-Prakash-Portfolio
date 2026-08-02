@@ -92,7 +92,8 @@
                 I am an aspiring computer science engineer. I have skills on Building websites using Html5-
                 Css3-Javascript-Bootstrap-GIT with years of excellence.
               </h4>
-                <a class="btn btn-dark btn-lg text-uppercase" href="https://wa.me/+919003959221?text=Hey Dev!!" target="blank">Connect With Me </a>
+                <!-- <a class="btn btn-dark btn-lg text-uppercase" href="https://wa.me/+919003959221?text=Hey Dev!!" target="blank">Connect With Me </a> -->
+                <a class="btn btn-dark btn-lg text-uppercase" href="mailto:prakashhari2003@outlook.com?subject=Connect From Website&body=Hey Dev!!" target="blank">Connect With Me </a>
             </div>
           </div>
         </div>
@@ -116,6 +117,10 @@
               developer's acumen and a hustler's vigor, I aspire to transform
               abstract ideas into tangible, powerful tools.
             </p>
+            <p><em>To Know more check my resume!</em></p>
+            <a href="./portfolio-img/DS_AI Resume 2026-05-05.pdf" download="Hari-Prakash-Resume.pdf">
+              <button type="button" class="btn btn-dark btn-lg text-uppercase">Download Resume</button>
+            </a>
           </div>
           <div class="col-md-6 pb-3 text-center">
             <img
@@ -258,10 +263,9 @@
                 alt="css-img"
               />
           </div>        
-          <br>
-          <h5 class="text-center pb-3">On the Progress.... </h5>
+            <br>
+            <h5 class="text-center pb-3">On the Progress.... </h5>
           </div>
-       
       </div>
     </section>      
 
@@ -280,7 +284,7 @@
                     type="text"
                     class="form-control"
                     id="NameInputname"
-                    aria-describedby="emailHelp"
+                    aria-describedby="emailHelp" required
                   />
                 </div>
                 <div class="mb-3">
@@ -291,7 +295,7 @@
                     type="number"
                     class="form-control"
                     id="MobileInputname"
-                    aria-describedby="emailHelp"
+                    aria-describedby="emailHelp" required
                   />
                 </div>
                 <div class="mb-3">
@@ -302,20 +306,20 @@
                     type="email"
                     class="form-control"
                     id="exampleInputEmail1"
-                    aria-describedby="emailHelp"
+                    aria-describedby="emailHelp" required
                   />
                   <div id="emailHelp" class="form-text">
-                    We'll never share your email with anyone else.
+                    <p>We'll never share your email with anyone else.</p>
                   </div>
                 </div>
                 <div class="mb-3">
-                  <label for="exampleFormControlTextarea1" class="form-label"
+                  <label for="exampleFormControlTextarea1" class="form-label" 
                     >Engage Here</label
                   >
                   <textarea
                     class="form-control"
                     id="exampleFormControlTextarea1"
-                    rows="3"
+                    rows="3" required
                   ></textarea>
                 </div >
                 <div class="row ">
@@ -323,6 +327,7 @@
                         <button type="submit" class="btn btn-primary ">Submit</button>
                     </div>
                 </div>
+                <p id="form-message"></p>
               </form>
             </div>
           </div>
@@ -345,4 +350,5 @@
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"
   ></script>
+  <script src="./app.js"></script>
 </html>

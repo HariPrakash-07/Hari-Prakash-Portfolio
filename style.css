@@ -4,11 +4,11 @@ body{
 
 .banner{
     font-family: 'Poppins', sans-serif;
-    background:url(./portfolio-img/coffee_laptop.jpg),no-repeat ;
+    background:url(./portfolio-img/coffee_laptop_1200_scaled.jpg),center no-repeat;
     padding: 250px 0;
-    background-position:initial ;
     background-size: cover;
     background-color: aqua;
+    image-rendering: -webkit-optimize-contrast; 
 }
 .banner .btn a{
     text-decoration: none;
